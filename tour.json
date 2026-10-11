@@ -1,0 +1,152 @@
+{
+  "title": "주라기 전시관",
+  "author": "조기석",
+  "showNav": false,
+  "polar": 45,
+  "startScene": "s01",
+  "scenes": [
+    {
+      "id": "s01",
+      "name": "전시관",
+      "description": "",
+      "image": "./panoramas/전시관2_보정_.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s02",
+          "yaw": -25,
+          "pitch": 0,
+          "text": "스피노사우루스로 이동"
+        },
+        {
+          "target": "s03",
+          "yaw": 35,
+          "pitch": 0,
+          "text": "모사사우루스로 이동"
+        },
+        {
+          "target": "s04",
+          "yaw": 95,
+          "pitch": 0,
+          "text": "트리케라톱스로 이동"
+        },
+        {
+          "target": "s05",
+          "yaw": 155,
+          "pitch": 0,
+          "text": "공룡 댄스로 이동"
+        },
+        {
+          "target": "s06",
+          "yaw": -145,
+          "pitch": 0,
+          "text": "티라노사우루스로 이동"
+        },
+        {
+          "target": "s07",
+          "yaw": -85,
+          "pitch": 0,
+          "text": "벨로시랩터로 이동"
+        }
+      ],
+      "popups": [],
+      "initialYaw": -129
+    },
+    {
+      "id": "s02",
+      "name": "스피노사우루스",
+      "description": "",
+      "image": "./panoramas/스피노사우루스_보정_.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s01",
+          "yaw": 170,
+          "pitch": 0,
+          "text": "전시관로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s03",
+      "name": "모사사우루스",
+      "description": "",
+      "image": "./panoramas/모사사우루스_보정_.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s01",
+          "yaw": 173,
+          "pitch": 0,
+          "text": "전시관로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s04",
+      "name": "트리케라톱스",
+      "description": "",
+      "image": "./panoramas/트리케라톱스_보정_.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s01",
+          "yaw": 172,
+          "pitch": 0,
+          "text": "전시관로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s05",
+      "name": "공룡 댄스",
+      "description": "",
+      "image": "./panoramas/주라기댄스_보정_.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s01",
+          "yaw": 170,
+          "pitch": 0,
+          "text": "전시관로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s06",
+      "name": "티라노사우루스",
+      "description": "",
+      "image": "./panoramas/티라노사우루스_보정_.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s01",
+          "yaw": 174,
+          "pitch": 0,
+          "text": "전시관로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s07",
+      "name": "벨로시랩터",
+      "description": "",
+      "image": "./panoramas/벨로시랩터_보정_.jpg",
+      "floor": 1,
+      "hotspots": [
+        {
+          "target": "s01",
+          "yaw": 175,
+          "pitch": 0,
+          "text": "전시관로 이동"
+        }
+      ],
+      "popups": []
+    }
+  ]
+}
